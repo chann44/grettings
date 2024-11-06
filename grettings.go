@@ -1,7 +1,8 @@
 package grettings 
 import "fmt"
 
+
 func Hello(name string) string {
-    message := fmt.Sprint("Hello %v Welocme!", name)
+    message := fmt.Sprintf("Hello %v, Welcome!", name)
     return message
 }
